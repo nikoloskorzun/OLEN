@@ -23,4 +23,4 @@ for file in files:
 gif_path = "1.gif"
 
 
-imageio.mimsave(gif_path, images, duration=10)
+imageio.mimsave(gif_path, images, duration=1000)
